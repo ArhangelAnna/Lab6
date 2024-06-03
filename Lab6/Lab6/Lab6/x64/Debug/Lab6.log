@@ -1,0 +1,36 @@
+﻿  MyForm.cpp
+C:\Users\Anna\source\repos\Lab6\MyForm.h(490,47): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\Anna\source\repos\Lab6\MyForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\Anna\source\repos\Lab6\Stack.h(96,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  C:\Users\Anna\source\repos\Lab6\Stack.h(96,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Anna\source\repos\Lab6\MyForm.h(17,27):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "Stack<double>"
+  	C:\Users\Anna\source\repos\Lab6\Stack.h(91,10):
+  	во время компиляции функции-члена класс шаблон "void Stack<double>::cocktailShakerSort(void)"
+  		C:\Users\Anna\source\repos\Lab6\MyForm.h(473,38):
+  		см. первую ссылку на "Stack<double>::cocktailShakerSort" в "Lab6::MyForm::button1_Click"
+  
+C:\Users\Anna\source\repos\Lab6\Stack.h(80,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  C:\Users\Anna\source\repos\Lab6\Stack.h(80,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Anna\source\repos\Lab6\Stack.h(76,10):
+  	во время компиляции функции-члена класс шаблон "void Stack<double>::bubbleSort(void)"
+  		C:\Users\Anna\source\repos\Lab6\MyForm.h(456,30):
+  		см. первую ссылку на "Stack<double>::bubbleSort" в "Lab6::MyForm::button1_Click"
+  
+C:\Users\Anna\source\repos\Lab6\Stack.h(43,19): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "MyForm.cpp")
+  C:\Users\Anna\source\repos\Lab6\Stack.h(43,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Anna\source\repos\Lab6\Stack.h(40,10):
+  	во время компиляции функции-члена класс шаблон "void Stack<double>::insertionSort(void)"
+  		C:\Users\Anna\source\repos\Lab6\MyForm.h(439,33):
+  		см. первую ссылку на "Stack<double>::insertionSort" в "Lab6::MyForm::button1_Click"
+  
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Lab6.vcxproj -> C:\Users\Anna\source\repos\Lab6\x64\Debug\Lab6.exe
